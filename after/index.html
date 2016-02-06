@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <main role="main" class="main is-transparent" data-js="main">
+
+            <header class="city" role="header">
+                <input type="text" class="city__nameInput" placeholder="City" data-js="cityNameInput" />
+                <small class="city__weather" data-js="cityWeatherCurrent">Chance of Meatballs</small>
+                <div class="city__temp" data-js="cityTempCurrent">100</div>
+            </header>
+
+            <section class="section--padded">
+                <table class="days">
+                    <tbody data-js="daysInner">
+                    </tbody>
+                </table>
+            </section>
+
+        </main>
+    </div>
+    <script src="app.js" async></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <main role="main" class="main">
+
+            <header class="city" role="header">
+                <input type="text" class="city__nameInput" placeholder="City" value="Indianapolis" />
+                <small class="city__weather">Mostly Cloudy</small>
+                <div class="city__temp">26</div>
+            </header>
+
+            <section class="section--padded">
+                <table class="days">
+                    <tbody>
+                        <tr class="day">
+                            <th class="day__name">Thursday</th>
+                            <td class="day__weather"><i data-icon="W"></i></td>
+                            <td class="day__high">32</td>
+                            <td class="day__low">24</td>
+                        </tr>
+                        <tr class="day">
+                            <th class="day__name">Friday</th>
+                            <td class="day__weather"><i data-icon="H"></i></td>
+                            <td class="day__high">41</td>
+                            <td class="day__low">24</td>
+                        </tr>
+                        <tr class="day">
+                            <th class="day__name">Saturday</th>
+                            <td class="day__weather"><i data-icon="H"></i></td>
+                            <td class="day__high">46</td>
+                            <td class="day__low">28</td>
+                        </tr>
+                        <tr class="day">
+                            <th class="day__name">Sunday</th>
+                            <td class="day__weather"><i data-icon="Y"></i></td>
+                            <td class="day__high">49</td>
+                            <td class="day__low">29</td>
+                        </tr>
+                        <tr class="day">
+                            <th class="day__name">Monday</th>
+                            <td class="day__weather"><i data-icon="B"></i></td>
+                            <td class="day__high">80</td>
+                            <td class="day__low">70</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="app.js" async></script>
+</body>
+</html>
